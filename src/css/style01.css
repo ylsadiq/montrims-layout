@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPTBook.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'helvetica regular';
+    src: url('../fonts/Helvetica/Helvetica Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+#root > div > div > div > div > div > div.text-center > svg{
+    transform: rotate(90deg)!important;
+    position: absolute;
+    margin-top: 135px;
+}
+.primarySize{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    font-family: 'futura pt';
+}
+#matalanWeb{
+    transform: rotate(90deg);
+    right: 0;
+    margin: 176px -14px;
+    font-size: 9.33px;
+    font-family: 'futura pt'!important;
+}
+
+.storyName{
+    position: absolute;
+    transform: rotate(90deg);
+    margin: 167px 7px;
+    font-size: 10.5px;
+    font-family: 'futura pt';
+}
+
+.slicedBarCode{
+    transform: rotate(90deg);
+    right: 0;
+    margin: 225px 36px;
+    font-size: 7.33px;
+    font-family: 'helvetica regular';
+}
+
+#root > div > div > div > div > div > p{
+    margin-top: 5px;
+    font-size: 8px;
+    font-weight: 700;
+}
+.seasonCode{
+    font-size: 7.33px;
+    /* font-weight: 600; */
+    margin-top: 234px;
+    position: absolute;
+    right: 71px;
+    font-family: 'helvetica regular';
+    
+}
+
+.bottomCorner{
+    transform: rotate(45deg);
+    left: 48px;
+    position: absolute;
+    bottom: 21px;
+    font-size: 13.33px;
+}
+
+.backCirlcle{
+    margin-right: 20px;
+}
+
+.frontCirlcle{
+    margin-top: 20px!important;
+    left: 43%;
+}
+
+.inner-border {
+    outline: 2px solid rgb(16, 203, 236);
+    outline-offset: -10px;
+  }
