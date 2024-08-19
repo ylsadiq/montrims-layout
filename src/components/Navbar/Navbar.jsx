@@ -41,10 +41,10 @@ const Navbar = () => {
 										CKIDB02JRF
 									</Link>
 									<Link
-										to="/CKIDBBC01OCJRF"
+										to="/CKIDBBCI01JRF"
 										className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
 									>
-										CKIDBBC01OCJRF
+										CKIDBBCI01JRF
 									</Link>
 									<Link
 										to="/CKIDG01JRF"
@@ -58,36 +58,7 @@ const Navbar = () => {
 									>
 										CKIDGBCI01JRF
 									</Link>
-									<Link
-										to="/LKIDBBCI01JRF"
-										className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-									>
-										LKIDBBCI01JRF
-									</Link>
-									<Link
-										to="/LKIDGBCI01ORF"
-										className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-									>
-										LKIDGBCI01ORF
-									</Link>
-									<Link
-										to="/YSE02CRF"
-										className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-									>
-										YSE02CRF
-									</Link>
-									<Link
-										to="/YSEBCI01CRF"
-										className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-									>
-										YSEBCI01CRF
-									</Link>
-									<Link
-										to="/PYWOMLBCI01LRF"
-										className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-									>
-										PYWOMLBCI01LRF
-									</Link>
+
 								</div>
 							</div>
 						</div>

@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 
 const FrontSvg = ({ data }) => {
 
+	
+	console.log(data);
 	// if selling price is greater than equal 4
 	const [biggerPrice, setBiggerPrice] = useState(false);
 	// console.log(biggerPrice);
