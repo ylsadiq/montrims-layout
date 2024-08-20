@@ -1,10 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 
 const FrontSvg = ({ data }) => {
-  console.log(data);
 
-  let size = data.size;
-
+  const size = data.size;
   const storyName = data.storyName;
   const priceMain = data.priceMain;
   const seasonCode = data.seasonCode;
@@ -254,7 +252,7 @@ const FrontSvg = ({ data }) => {
           font-size="60.8216px"
         >
           <tspan>{size[0]}</tspan>
-            <tspan dx="10">{size[1]}</tspan>
+          <tspan dx="10">{size[1]}</tspan>
         </text>
         <g>
           <text transform="matrix(1.1727 0 0 1 184.1084 543.2158)">

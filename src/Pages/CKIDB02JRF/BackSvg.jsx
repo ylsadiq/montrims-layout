@@ -6,7 +6,6 @@ const BackSvg = ({ elem }) => {
   // get the value
   // get all the required values
   let size = elem.size;
-
   const storyName = elem.storyName;
   const priceMain = elem.priceMain;
   const seasonCode = elem.seasonCode;
@@ -15,7 +14,7 @@ const BackSvg = ({ elem }) => {
   // const barcodeTwo= elem.barcodeTwo;
   const sevenBarcode = elem.sevenBarcode;
   const fiveBarcode = elem.fiveBarcode;
-  const soNumber = elem.soNumber;
+  // const soNumber = elem.soNumber;
   const quantity = elem.quantity;
   // const poLine= elem.poLine;
   // const totalQuantity= elem.totalQuantity;
