@@ -195,7 +195,7 @@ const BackSvg = ({ elem }) => {
         </g>
         {/* bottom price goes here  */}
         <text transform="matrix(1 0 0 1 23.8555 206.4258)">
-          <tspan x="0" y="0" font-family="'FuturaPT-Book'" font-size="15">
+          <tspan x="0" y="0" font-family="'FuturaPT-Book'" font-size="15px">
             £
           </tspan>
           <tspan x="8.145" y="0" font-family="'FuturaPT-Medium'" font-size="30">

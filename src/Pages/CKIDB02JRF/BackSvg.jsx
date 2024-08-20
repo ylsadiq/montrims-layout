@@ -2,10 +2,10 @@ import { useBarcode } from "@createnextapp/react-barcode";
 import React, { useRef } from "react";
 
 const BackSvg = ({ elem }) => {
-  console.log(elem);
+  // console.log(elem);
   // get the value
   // get all the required values
-  let size = elem.size
+  let size = elem.size;
 
   const storyName = elem.storyName;
   const priceMain = elem.priceMain;
@@ -178,8 +178,8 @@ const BackSvg = ({ elem }) => {
             font-family="'FuturaPT-Medium'"
             font-size="60.8216px"
           >
-            <tspan >{size[0]}</tspan> 
-			<tspan dx="10">{size[1]}</tspan>
+            <tspan>{size[0]}</tspan>
+            <tspan dx="10">{size[1]}</tspan>
           </text>
         </g>
         <text transform="matrix(1 0 0 1 165.7366 800.6275)">
@@ -207,8 +207,7 @@ const BackSvg = ({ elem }) => {
             font-family="'FuturaPT-Book'"
             font-size="57.0202px"
             letter-spacing="-1"
-          >
-          </tspan>
+          ></tspan>
         </text>
         <g>
           <g>
@@ -270,9 +269,9 @@ const BackSvg = ({ elem }) => {
                 </g>
 
                 {/* the arrow sign goes here  */}
-				<polygon
+                <polygon
                   points="26.395,162.846 29.391,166.971 32.381,162.854 33.303,162.857 29.442,168.225 25.481,162.863 26.395,162.846 
-									"
+				"
                 />
               </g>
             </g>
