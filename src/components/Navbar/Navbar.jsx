@@ -58,6 +58,18 @@ const Navbar = () => {
                   >
                     LKIDGBCI01ORF
                   </Link>
+                  <Link
+                    to="/YSE02CRF"
+                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    YSE02CRF
+                  </Link>
+                  <Link
+                    to="/LKIDBBCI01ORF"
+                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
+                  >
+                    LKIDBBCI01ORF
+                  </Link>
                 </div>
               </div>
             </div>
