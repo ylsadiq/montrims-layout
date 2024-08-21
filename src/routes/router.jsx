@@ -8,6 +8,8 @@ import LKIDBBCI01JRF from "../Pages/LKIDBBCI01JRF/LKIDBBCI01JRF";
 import LKIDGBCI01ORF from "../Pages/LKIDGBCI01ORF/LKIDGBCI01ORF";
 import YSE02CRF from "../Pages/YSE02CRF/YSE02CRF";
 import LKIDBBCI01ORF from "../Pages/LKIDBBCI01ORF/LKIDBBCI01ORF";
+import YSEBCI01CRF from "../Pages/YSEBCI01CRF/YSEBCI01CRF";
+import DISBCI01ORRF from "../Pages/DISBCI01ORRF/DISBCI01ORRF";
 import Login from "../Pages/Login";
 import ProtectedRoute from "./ProtectedRoute";
 
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
       {
         path: "/LKIDBBCI01ORF",
         element: <LKIDBBCI01ORF />,
+      },
+      {
+        path: "/YSEBCI01CRF",
+        element: <YSEBCI01CRF />,
+      },
+      {
+        path: "/DISBCI01ORRF",
+        element: <DISBCI01ORRF />,
       },
     ],
   },

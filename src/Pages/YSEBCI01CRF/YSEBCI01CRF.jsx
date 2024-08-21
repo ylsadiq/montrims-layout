@@ -3,7 +3,7 @@ import BackSvg from "./BackSvg";
 import FrontSvg from "./FrontSvg";
 import VariablesList from "../../Helper";
 
-const LKIDGBCI01ORF = () => {
+const YSEBCI01CRF = () => {
   const item = VariablesList();
   const frontRef = useRef(null);
   return (
@@ -28,4 +28,4 @@ const LKIDGBCI01ORF = () => {
   );
 };
 
-export default LKIDGBCI01ORF;
+export default YSEBCI01CRF;

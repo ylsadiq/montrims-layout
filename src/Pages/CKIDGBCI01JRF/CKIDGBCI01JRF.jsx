@@ -3,7 +3,7 @@ import BackSvg from "./BackSvg";
 import FrontSvg from "./FrontSvg";
 import VariablesList from "../../Helper";
 
-const CKIDB02JRF = () => {
+const CKIDGBCI01JRF = () => {
 	const item = VariablesList();
 	console.log(item);
 	const frontRef = useRef(null);
@@ -30,4 +30,4 @@ const CKIDB02JRF = () => {
 	);
 };
 
-export default CKIDB02JRF;
+export default CKIDGBCI01JRF;

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Dropdown.css"; // Import the CSS file
+import LinkList from "../LinkList";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -20,56 +21,8 @@ const Navbar = () => {
               <div className="dropdown">
                 <button className="dropbtn text-white ms-5">Matalan</button>
                 <div className="dropdown-content">
-                  {/* <Link to="/layout02">Easy</Link>
-									<Link to="/CKIDB02JRF">CKIDB02JRF</Link> */}
-                  <Link
-                    to="/CKIDB02JRF"
-                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    CKIDB02JRF
-                  </Link>
-                  <Link
-                    to="/CKIDBBCI01JRF"
-                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    CKIDBBCI01JRF
-                  </Link>
-                  <Link
-                    to="/CKIDG01JRF"
-                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    CKIDG01JRF
-                  </Link>
-                  <Link
-                    to="/CKIDGBCI01JRF"
-                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    CKIDGBCI01JRF
-                  </Link>
-                  <Link
-                    to="/LKIDBBCI01JRF"
-                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    LKIDBBCI01JRF
-                  </Link>
-                  <Link
-                    to="/LKIDGBCI01ORF"
-                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    LKIDGBCI01ORF
-                  </Link>
-                  <Link
-                    to="/YSE02CRF"
-                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    YSE02CRF
-                  </Link>
-                  <Link
-                    to="/LKIDBBCI01ORF"
-                    className="text-gray-300 hover:bg-gray-700  block px-3 py-2 rounded-md text-base font-medium"
-                  >
-                    LKIDBBCI01ORF
-                  </Link>
+                <LinkList />
+                  
                 </div>
               </div>
             </div>
