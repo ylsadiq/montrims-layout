@@ -6,12 +6,12 @@ import { MyContextProvider } from "../customHooks/useData";
 // import DataView from "./DataView";
 
 const Main = () => {
-	return (
-		<MyContextProvider>
-			<Navbar />
-			<Upload />
-		</MyContextProvider>
-	);
+  return (
+    <MyContextProvider>
+      <Navbar />
+      <Upload />
+    </MyContextProvider>
+  );
 };
 
 export default Main;

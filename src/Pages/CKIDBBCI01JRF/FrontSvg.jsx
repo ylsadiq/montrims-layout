@@ -1,19 +1,18 @@
 import React, { useRef } from "react";
 
 const FrontSvg = ({ data }) => {
-  console.log(data);
   // if selling price is greater than equal 4
   const size = data.size;
-  const storyName = data.storyName;
+  // const storyName = data.storyName;
   const priceMain = data.priceMain;
-  const seasonCode = data.seasonCode;
-  const gender = data.gender;
-  const barcode = data.barcode;
+  // const seasonCode = data.seasonCode;
+  // const gender = data.gender;
+  // const barcode = data.barcode;
   // const barcodeTwo= data.barcodeTwo;
-  const sevenBarcode = data.sevenBarcode;
-  const fiveBarcode = data.fiveBarcode;
-  const soNumber = data.soNumber;
-  const quantity = data.quantity;
+  // const sevenBarcode = data.sevenBarcode;
+  // const fiveBarcode = data.fiveBarcode;
+  // const soNumber = data.soNumber;
+  // const quantity = data.quantity;
   const sellingfeature = data.sellingfeature;
 
   const svgRef = useRef(null);
