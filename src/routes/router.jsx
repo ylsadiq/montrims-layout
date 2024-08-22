@@ -10,6 +10,18 @@ import YSE02CRF from "../Pages/YSE02CRF/YSE02CRF";
 import LKIDBBCI01ORF from "../Pages/LKIDBBCI01ORF/LKIDBBCI01ORF";
 import YSEBCI01CRF from "../Pages/YSEBCI01CRF/YSEBCI01CRF";
 import DISBCI01ORRF from "../Pages/DISBCI01ORRF/DISBCI01ORRF";
+import DISBCI02ORRF from "../Pages/DISBCI02ORRF/DISBCI02ORRF";
+import DISBCI01ORF from "../Pages/DISBCI01ORF/DISBCI01ORF";
+import DISBCI02ORF from "../Pages/DISBCI02ORF/DISBCI02ORF";
+import DISBCI01JRF from "../Pages/DISBCI01JRF/DISBCI01JRF";
+import DISBCI02JRF from "../Pages/DISBCI02JRF/DISBCI02JRF";
+import DISBCI01CRF from "../Pages/DISBCI01CRF/DISBCI01CRF";
+import DISBCI02CRF from "../Pages/DISBCI02CRF/DISBCI02CRF";
+import SLX01CRF from "../Pages/SLX01CRF/SLX01CRF";
+import SLX02CRF from "../Pages/SLX02CRF/SLX02CRF";
+import SLX01LRF from "../Pages/SLX01LRF/SLX01LRF";
+import SLX02LRF from "../Pages/SLX02LRF/SLX02LRF";
+
 import Login from "../Pages/Login";
 import ProtectedRoute from "./ProtectedRoute";
 
@@ -62,6 +74,58 @@ const router = createBrowserRouter([
       {
         path: "/DISBCI01ORRF",
         element: <DISBCI01ORRF />,
+      },
+      {
+        path: "/DISBCI02ORRF",
+        element: <DISBCI02ORRF />,
+      },
+      {
+        path: "/DISBCI01ORF",
+        element: <DISBCI01ORF />,
+      },
+      {
+        path: "/DISBCI02ORF",
+        element: <DISBCI02ORF />,
+      },
+      {
+        path: "/DISBCI01JRF",
+        element: <DISBCI01JRF />,
+      },
+      {
+        path: "/DISBCI02JRF",
+        element: <DISBCI02JRF />,
+      },
+      {
+        path: "/DISBCI02JRF",
+        element: <DISBCI02JRF />,
+      },
+      {
+        path: "/DISBCI01CRF",
+        element: <DISBCI01CRF />,
+      },
+      {
+        path: "/DISBCI01CRF",
+        element: <DISBCI01CRF />,
+      },
+      {
+        path: "/DISBCI02CRF",
+        element: <DISBCI02CRF />,
+      },
+      {
+        path: "/SLX01CRF",
+        element: <SLX01CRF />,
+      },
+      {
+        path: "/SLX02CRF",
+        element: <SLX02CRF />,
+      },
+      {
+        path: "/SLX01LRF",
+        element: <SLX01LRF />,
+      },
+      {
+        path: "/SLX02LRF",
+        element: <SLX02LRF />,
       },
     ],
   },
