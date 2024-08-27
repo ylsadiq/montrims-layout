@@ -800,8 +800,10 @@ const BackSvg = ({ elem }) => {
 	</g>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 150.5557 179.1807)" font-family="'FuturaPT-Medium'" font-size="52.6658px"><tspan>{size[0]}</tspan>
-  <tspan dx="10">{size[1]}</tspan></text>
+	<text transform="matrix(1 0 0 1 150.5557 179.1807)" font-family="'FuturaPT-Medium'" font-size="52.6658px">
+	<tspan>{size[0]}</tspan>
+  	<tspan dx="10">{size[1]}</tspan>
+  </text>
 </g>
 <g>
 	<rect x="109.15" y="45.44" fill="none" stroke="#009FE3" stroke-width="0.5" width="354.56" height="699.79"/>

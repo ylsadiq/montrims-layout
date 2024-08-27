@@ -21,9 +21,32 @@ import SLX01CRF from "../Pages/SLX01CRF/SLX01CRF";
 import SLX02CRF from "../Pages/SLX02CRF/SLX02CRF";
 import SLX01LRF from "../Pages/SLX01LRF/SLX01LRF";
 import SLX02LRF from "../Pages/SLX02LRF/SLX02LRF";
+import SLX01CJRF from "../Pages/SLX01CJRF/SLX01CJRF";
+import SLX02CJRF from "../Pages/SLX02CJRF/SLX02CJRF";
+import SLX01JRF from "../Pages/SLX01JRF/SLX01JRF";
+import SLX02JRF from "../Pages/SLX02JRF/SLX02JRF";
+import LNCBCI01CRF from "../Pages/LNCBCI01CRF/LNCBCI01CRF";
+import LNCBCI02CRF from "../Pages/LNCBCI02CRF/LNCBCI02CRF";
+import BABABCI01ORRF from "../Pages/BABABCI01ORRF/BABABCI01ORRF";
+import BABABCI02ORRF from "../Pages/BABABCI02ORRF/BABABCI02ORRF";
+import BABABCI01ORF from "../Pages/BABABCI01ORF/BABABCI01ORF";
+import BABABCI02ORF from "../Pages/BABABCI02ORF/BABABCI02ORF";
+import BABABCI01CRF from "../Pages/BABABCI01CRF/BABABCI01CRF";
+import BABABCI02CRF from "../Pages/BABABCI02CRF/BABABCI02CRF";
+import CKIDBBCI01ORF from "../Pages/CKIDBBCI01ORF/CKIDBBCI01ORF";
+import CKIDBBCI02ORF from "../Pages/CKIDBBCI02ORF/CKIDBBCI02ORF";
+import CKIDBBCI02JRF from "../Pages/CKIDBBCI02JRF/CKIDBBCI02JRF";
+import CKIDBBCI01CRF from "../Pages/CKIDBBCI01CRF/CKIDBBCI01CRF";
+import CKIDBBCI02CRF from "../Pages/CKIDBBCI02CRF/CKIDBBCI02CRF";
+import LKIDBBCI02ORF from "../Pages/LKIDBBCI02ORF/LKIDBBCI02ORF";
+import LKIDBBCI02JRF from "../Pages/LKIDBBCI02JRF/LKIDBBCI02JRF";
+import LKIDBBCI01CRF from "../Pages/LKIDBBCI01CRF/LKIDBBCI01CRF";
+import LKIDBBCI02CRF from "../Pages/LKIDBBCI02CRF/LKIDBBCI02CRF";
+import LKIDGBCI02ORF from "../Pages/LKIDGBCI02ORF/LKIDGBCI02ORF";
 
 import Login from "../Pages/Login";
 import ProtectedRoute from "./ProtectedRoute";
+
 
 const router = createBrowserRouter([
   {
@@ -127,6 +150,95 @@ const router = createBrowserRouter([
         path: "/SLX02LRF",
         element: <SLX02LRF />,
       },
+      {
+        path: "/SLX01CJRF",
+        element: <SLX01CJRF />,
+      },
+      {
+        path: "/SLX02CJRF",
+        element: <SLX02CJRF />,
+      },
+      {
+        path: "/SLX01JRF",
+        element: <SLX01JRF />,
+      },
+      {
+        path: "/SLX02JRF",
+        element: <SLX02JRF />,
+      },
+      {
+        path: "/LNCBCI01CRF",
+        element: <LNCBCI01CRF />,
+      },
+      {
+        path: "/LNCBCI02CRF",
+        element: <LNCBCI02CRF />,
+      },
+      {
+        path: "/BABABCI01ORRF",
+        element: <BABABCI01ORRF />,
+      },
+      {
+        path: "/BABABCI02ORRF",
+        element: <BABABCI02ORRF />,
+      },
+      {
+        path: "/BABABCI01ORF",
+        element: <BABABCI01ORF />,
+      },
+      {
+        path: "/BABABCI02ORF",
+        element: <BABABCI02ORF />,
+      },
+      {
+        path: "/BABABCI01CRF",
+        element: <BABABCI01CRF />,
+      },
+      {
+        path: "/BABABCI02CRF",
+        element: <BABABCI02CRF />,
+      },
+      {
+        path: "/CKIDBBCI01ORF",
+        element: <CKIDBBCI01ORF />,
+      },
+      {
+        path: "/CKIDBBCI02ORF",
+        element: <CKIDBBCI02ORF />,
+      },
+      {
+        path: "/CKIDBBCI02JRF",
+        element: <CKIDBBCI02JRF />,
+      },
+      {
+        path: "/CKIDBBCI01CRF",
+        element: <CKIDBBCI01CRF />,
+      },
+      {
+        path: "/CKIDBBCI02CRF",
+        element: <CKIDBBCI02CRF />,
+      },
+      {
+        path: "/LKIDBBCI02ORF",
+        element: <LKIDBBCI02ORF />,
+      },
+      {
+        path: "/LKIDBBCI02JRF",
+        element: <LKIDBBCI02JRF />,
+      },
+      {
+        path: "/LKIDBBCI01CRF",
+        element: <LKIDBBCI01CRF />,
+      },
+      {
+        path: "/LKIDBBCI02CRF",
+        element: <LKIDBBCI02CRF />,
+      },
+      {
+        path: "/LKIDGBCI02ORF",
+        element: <LKIDGBCI02ORF />,
+      },
+      
     ],
   },
   {

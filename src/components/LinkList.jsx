@@ -35,6 +35,28 @@ const LinkList = () => {
     { to: "/SLX02CRF", label: "SLX02CRF" },
     { to: "/SLX01LRF", label: "SLX01LRF" },
     { to: "/SLX02LRF", label: "SLX02LRF" },
+    { to: "/SLX01CJRF", label: "SLX01CJRF" },
+    { to: "/SLX02CJRF", label: "SLX02CJRF" },
+    { to: "/SLX01JRF", label: "SLX01JRF" },
+    { to: "/SLX02JRF", label: "SLX02JRF" },
+    { to: "/LNCBCI01CRF", label: "LNCBCI01CRF" },
+    { to: "/LNCBCI02CRF", label: "LNCBCI02CRF" },
+    { to: "/BABABCI01ORRF", label: "BABABCI01ORRF" },
+    { to: "/BABABCI02ORRF", label: "BABABCI02ORRF" },
+    { to: "/BABABCI01ORF", label: "BABABCI01ORF" },
+    { to: "/BABABCI02ORF", label: "BABABCI02ORF" },
+    { to: "/BABABCI01CRF", label: "BABABCI01CRF" },
+    { to: "/BABABCI02CRF", label: "BABABCI02CRF" },
+    { to: "/CKIDBBCI01ORF", label: "CKIDBBCI01ORF" },
+    { to: "/CKIDBBCI02ORF", label: "CKIDBBCI02ORF" },
+    { to: "/CKIDBBCI02JRF", label: "CKIDBBCI02JRF" },
+    { to: "/CKIDBBCI01CRF", label: "CKIDBBCI01CRF" },
+    { to: "/CKIDBBCI02CRF", label: "CKIDBBCI02CRF" },
+    { to: "/LKIDBBCI02JRF", label: "LKIDBBCI02JRF" },
+    { to: "/LKIDBBCI01CRF", label: "LKIDBBCI01CRF" },
+    { to: "/LKIDBBCI02CRF", label: "LKIDBBCI02CRF" },
+    { to: "/LKIDGBCI02ORF", label: "LKIDGBCI02ORF" },
+
   ];
 
   return (
